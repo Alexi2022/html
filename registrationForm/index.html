@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document for common inputs</title>
+</head>
+<body>
+    <div>
+        <label>name</label>
+        <input type="text" name="first_name">
+    </div>
+
+    <div>
+        <input type="number" name="age">
+    </div>
+
+    <div>
+        <input type="password" name="password">
+    </div>
+
+    <div>
+        <label>date (not always supported)</label>
+        <input type="date" name="dob">
+    </div>
+
+    <div>
+        <label>color</label>
+        <input type="color" name="text_color">
+    </div>
+    
+    <div>
+        <label>radio for both bold and normal</label>
+        <input type="radio" name="font" value="bold" id="bold">
+        <label for="bold"><strong>Bold</strong></label>
+        <input type="radio" name="font" value="normal" id="normal">
+        <label for="normal">Normal</label>
+    </div>
+    
+    <div>
+        <label>checkbox</label>
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">I agree</label>
+    </div>
+    
+    <div>
+        <label>Textarea</label>
+        <textarea name="comment" cols="20" rows="3"></textarea>
+    </div>
+    
+    <div>
+        <label>select</label>
+        <select name="snack">
+            <option>Almonds</option>
+            <option>Cheese and Crackers</option>
+            <option>Pita and Hummus</option>
+            <option>Pears</option>
+        </select>
+    </div>
+
+    <form action="/process" method="post">
+        <div>
+            <label>Name: </label>
+            <input type="text" name="name" 
+            placeholder="Your name..." >
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="text" name="email" 
+            placeholder="Your email..." >
+        </div>
+        <div>
+            <input type="checkbox" name="offers" 
+            id="offers" checked >
+            <label for="offers">I would like 
+            to receive email offers!</label>
+        </div>
+        <input type="submit" value="Sign Up!" >
+    </form>
+</body>
+</html>
