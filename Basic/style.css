@@ -1,0 +1,45 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+    border-color: rebeccapurple;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurple;
+}
+
+/* Direct desendent so the brand image will be given a height of 50px and the cart icon won't be affected.*/
+.header > img {
+    height: 50px;
+}
+
+.is_centered {
+    text-align: center;
+}
+
+.green {
+    background-color: mediumseagreen;
+}
+
+#red {
+    background-color: tomato;
+}
+
+.quote p {
+    color: darkslategrey;
+    font-style: italic;
+}
