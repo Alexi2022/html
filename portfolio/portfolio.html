@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <div>
+        <h1>
+            <strong>
+                Alexis Anderson
+            </strong>
+        </h1>
+    </div>
+    <div>
+        <img id="logo" src="portfolio/library.jpeg" alt="Profile picture displays a pile of books.">
+        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Flibrary&psig=AOvVaw3az3RRhXsKlUqLvyLUGHEt&ust=1670978090699000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNj2ys6s9fsCFQAAAAAdAAAAABAF">Link to image</a>
+    </div>
+
+    <div>
+        <p>Facts About Me:</p>
+            <ul>
+                <li>Reading books is a favorite hobby of mine</li>
+                <li>In my senior year of highschool my favorite subjects was a web development class</li>
+                <li>I love animals (especially dogs)</li>
+                <li>I have two pet dogs
+                    <ol>
+                        <li>Ariel</li>
+                        <li>Teddy</li>
+                    </ol>
+                </li>
+                <li>I live in Minnesota</li>
+            </ul>
+    </div>
+
+    <div>
+        <label>Books I've Read</label>
+    </div>
+
+    <div>
+        <table> 
+            <thead>
+                <tr>
+                    <th>--</th>
+                    <th>--The Keeper of Night--</th>
+                    <th>--I'm Thinking of Ending Things--</th>
+                    <th>--Iron Widow--</th>
+                </tr>
+            </thead>
+            <tbody> 
+                <tr>
+                    <td><strong>Date of Completion</strong></td>
+                    <td>10 Dec</td>
+                    <td>27 Nov</td>
+                    <td>15 Oct</td>
+                </tr>
+                <tr>
+                    <td><strong>Author</strong></td>
+                    <td>Kylie Lee Baker</td>
+                    <td>Ian Reed</td>
+                    <td>Xiran Jay Zhao</td>
+                </tr>
+                <tr>
+                    <td><strong>Personal Rating</strong></td>
+                    <td>3.5/5</td>
+                    <td>3/5</td>
+                    <td>5/5</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <h1><strong>Contact Me</strong></h1>
+
+    <form action="/process" method="post">
+        <div>
+            <label>Name: </label>
+            <input type="text" name="name" 
+            placeholder="Your name..." >
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="text" name="email" 
+            placeholder="Your email..." >
+        </div>
+        <div>
+            <textarea name="comment" cols="20" rows="3"></textarea>
+        </div>
+        <input type="submit" value="Send Message" >
+    </form>
+</body>
+</html>
